@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tables</title>
+    <style>
+        table {
+            width: 95%;
+            margin: 20px auto;
+            border: 3px solid antiquewhite;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid antiquewhite;
+            padding: 5px;
+            color: black;
+        }
+
+        th {
+            color: rgb(173, 6, 6);
+            background-color: antiquewhite;
+        }
+
+        tr:hover {
+            background: antiquewhite;
+        }
+
+        td {
+            text-align: center;
+            min-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Styling Tables</h1>
+                <nav>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Table Basics</a> &nbsp;&nbsp;&nbsp;
+                    <a href="styling-tables.html">Styling Tables</a> &nbsp;&nbsp;&nbsp;
+                    <a href="calendar.html">Creating a Calendar</a> &nbsp;&nbsp;&nbsp;
+                </nav>
+                <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h2>Styling Tables</h2>
+            <table>
+                <!-- tr>th*8 -->
+                <tr>
+                    <th></th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <!-- ((tr>td*8)*12 -->
+                <tr>
+                    <th>7:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>8:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9:00 am</th>
+                    <td></td>
+                    <td>Pinion</td>
+                    <td>Coil</td>
+                    <td>Pinion</td>
+                    <td>Coil</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:00 am</th>
+                    <td></td>
+                    <td rowspan=2>Bartle</td>
+                    <td rowspan=2>Crisp</td>
+                    <td rowspan=2>Bartle</td>
+                    <td rowspan=2>Crisp</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>11:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>12:00 pm</th>
+                    <td></td>
+                    <td>Daniel</td>
+                    <td>Credenza</td>
+                    <td>Daniel</td>
+                    <td>Credenza</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>1:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Merdo</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>2:00 pm</th>
+                    <td></td>
+                    <td rowspan="2">Kadath</td>
+                    <td></td>
+                    <td rowspan="2">Kadath</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>3:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td>Ainsley</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>4:00 pm</th>
+                    <td></td>
+                    <td>Tindor</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>5:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td>Bullock</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>6:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Birdie</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </header>
+    </div>
+</body>
+
+</html>
