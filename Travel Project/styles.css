@@ -1,0 +1,90 @@
+
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Abel', sans-serif;
+*/
+
+*{
+ overflow: auto;   
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: rgb(243, 119, 81);
+    color: #212121;
+    box-sizing: border-box;
+}
+.container{
+    background: #FFCCBC;
+    width: auto;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.fig{
+    background: #FFCCBC;
+    width: auto;
+    max-width: 1000px;
+    margin: 15px auto;
+    font-family: 'Abel', cursive;
+    font-size: 12pt;
+}
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #212121;
+}
+nav{
+    background-image: url(https://media.istockphoto.com/photos/eiffel-tower-in-paris-france-picture-id639337086?k=6&m=639337086&s=612x612&w=0&h=n_Oy_e5hhhhdVEeMHS6LdEZasWn_MjYSlFuoW3bpcXU=);
+    text-align: center;
+    line-height: 3;
+    padding: 5%;
+}
+nav a, .button{
+    padding: 12px 22px;
+    margin-left: 20px;
+    color: #212121;
+    background: #E64A19;
+    border: 2px solid #E64A19;
+    border-radius: 10px;
+}
+nav a :hover, .button:hover{
+    color: #FF5722;
+    background: #FFCCBC;
+}
+nav a:visited, .button:visited{
+    background: #E64A19;
+    border: #FF5722;
+}
+img{
+    padding: 15px;
+    background: #FFCCBC;
+}
+#pic{
+    width: 80%;
+    float: left;
+}
+#pic2{
+    width: 95%;
+    float: unset;
+}
+aside{
+    clear: both;
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px;
+    overflow: auto;
+    border: 2px solid #FFCCBC;
+    margin-right: 10px;
+}
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
